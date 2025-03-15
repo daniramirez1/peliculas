@@ -1,0 +1,221 @@
+/* Barra de NAvegacion */
+.navbar{
+    padding: 1rem;
+    background-color: #165a5e;
+
+}
+.navbar i{
+    font-size: 3rem;
+    color: #D7D9CE;
+    padding: 1rem;
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar button{
+    color: #040404;
+    border-color: #13505B;
+}
+.navbar h2{
+    font-size: 2.5rem;
+    font-family: "Rubik Dirt", serif;
+    color: #13191a;
+}
+/* seccion hero  */
+.hero{
+    background-color: #2b2828;
+    padding: 1.5rem;
+}
+.recomendacion-hero{
+    margin: 1rem;
+    color: aliceblue;
+    font-family: "Rubik Dirt", serif;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.imagen-hero {
+    width: 50rem;
+    border-radius: 10%;
+    box-shadow: 0 0 20px rgba(57, 112, 230, 0.5); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+.titulo-hero{
+    margin: 1rem;
+    color: aliceblue;
+    font-family: "Rubik Dirt", serif;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.descripcion-hero{
+    margin: 1rem;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    text-align: justify;
+    font-family: "Madimi One", serif;
+    font-size: 1rem;
+}
+
+
+/* main */
+.main {
+    background-color: #787975;
+    
+}
+.titulo-main{
+    color: aliceblue;
+    font-family: "Rubik Dirt", serif;
+    font-size: 2.5rem;
+    padding: 1rem;
+    overflow: hidden;
+}
+.contenedor-peliculas{
+    margin: 1rem;
+    overflow: hidden;
+
+    
+}
+.contenedor-peliculas img{
+    border-radius: 1rem;
+    margin: 1rem;
+    width: 50rem;
+
+}
+
+/* segundo HTML donde se cargan los actores */
+.contenedorDesc{
+    padding: 1.5rem;
+
+}
+.DescTitulo{
+    margin: 1rem;
+    color: aliceblue;
+    font-family: "Rubik Dirt", serif;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+.descImg{
+    width: 50rem;
+    border-radius: 10%;
+    box-shadow: 0 0 20px rgba(57, 112, 230, 0.5); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.peliculaDesc{
+    margin: 1rem;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    text-align: justify;
+    font-family: "Madimi One", serif;
+    font-size: 1rem;
+}
+
+.contenedor-cast {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.contenedor-cast div{
+    
+    margin: 1rem;
+    width: 50rem;
+}
+.contenedor-cast img{
+    border-radius: 1rem;
+}
+.contenedor-cast p{
+    margin: 1.5rem;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    text-align: justify;
+    font-family: "Madimi One", serif;
+    font-size: 3rem;
+}
+/* footer */
+/* footer */
+.final{
+    background-color: #040404;
+}
+.final div{
+    justify-content: space-between;
+}
+.contenedor-final{
+    display: flex;
+    flex-direction: row;
+}
+.miNombre{
+    margin: 1.5rem;
+    color: aliceblue;
+    overflow: hidden;
+    font-family: "Madimi One", serif;
+    font-size: 1.5rem;
+}
+.materia{
+    margin: 1.5rem;
+    color: aliceblue;
+    overflow: hidden;
+    font-family: "Madimi One", serif;
+    font-size: 1.5rem;
+}
+
+
+@media screen and (max-width: 600px){
+    .hero{
+        display: none;
+    }
+}
+@media screen and (max-width: 800px){
+    .descripcion-hero{
+        display: none;
+    }
+}
+@media screen and (max-width: 400px){
+    .main{
+        display: none;
+    }
+}
+
+
+
